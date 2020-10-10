@@ -8,7 +8,7 @@ class ProductProvider extends Component {
     products: [],
     detailProduct,
   };
-  
+
   componentDidMount() {
     this.setProduct();
   }
@@ -28,8 +28,8 @@ class ProductProvider extends Component {
     console.log("hello from detail");
   };
 
-  addToCart = () => {
-    console.log("hello from add to cart");
+  addToCart = (id) => {
+    console.log(`hello from add to cart when id is ${id}`);
   };
 
   render() {
