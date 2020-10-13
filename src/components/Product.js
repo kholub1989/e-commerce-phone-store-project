@@ -16,6 +16,7 @@ export default class Product extends Component {
                 className="img-container p-5"
                 onClick={() => {
                   value.handelDetail(id);
+                  value.openModal(id);
                 }}
               >
                 <Link to="/details">
