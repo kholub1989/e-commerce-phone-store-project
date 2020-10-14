@@ -17,10 +17,10 @@ class ProductProvider extends Component {
   };
 
   componentDidMount() {
-    this.setProduct();
+    this.setProducts();
   }
 
-  setProduct = () => {
+  setProducts = () => {
     let tempProducts = [];
     storeProducts.forEach((item) => {
       const singleItem = { ...item };
@@ -89,7 +89,16 @@ class ProductProvider extends Component {
   };
 
   clearCart = () => {
-    console.log(`cart was cleared`);
+    this.setState(
+      () => {
+        return {
+          cart: [],
+        };
+      },
+      () => {
+        this.setProducts();
+      }
+    );
   };
 
   addTotals = () => {
