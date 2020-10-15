@@ -8,11 +8,11 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <ProductProvider>
-    <React.StrictMode>
-      <Router>
-        <App />
-      </Router>
-    </React.StrictMode>
+    {/* <React.StrictMode> */}
+    <Router>
+      <App />
+    </Router>
+    {/* </React.StrictMode> */}
   </ProductProvider>,
   document.getElementById("root")
 );
