@@ -1,3 +1,13 @@
+# E-Commerce phone store project
+
+![E-Commerce phone store project](https://i.ibb.co/NVjVMbR/Screen-Shot-2020-10-14-at-9-11-20-PM.png)
+
+![E-Commerce phone store project](https://i.ibb.co/MVZRfwM/Screen-Shot-2020-10-14-at-9-12-45-PM.png)
+
+![E-Commerce phone store project](https://i.ibb.co/849nLqL/Screen-Shot-2020-10-14-at-9-14-10-PM.png)
+
+Application created for the purpose of study, an e-commerce store.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
